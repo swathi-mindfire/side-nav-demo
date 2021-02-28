@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Drop Down</title>
+</head>
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>Favourites</legend>
+
+            <label for="">Sport</label>
+
+            <input type="text" list ="custom-list">
+            <datalist id="custom-list">
+                 <option value="Cricket"></option>
+                 <option value="Hockey"></option>
+                 <option value="Foot Ball"></option>
+                 <option value="Tennis"></option>
+
+            </datalist> 
+
+            <div class="color"><br>
+
+                <label for="">Color</label>
+
+                <input type="color" list ="custom-list">
+                <datalist id="custom-list">
+                    <option value="Cricket"></option>
+                    <option value="Hockey"></option>
+                    <option value="Foot Ball"></option>
+                    <option value="Tennis"></option>
+   
+               </datalist>
+
+            </div> <br>
+            <div class="time">
+                <label for="">Time</label>
+                <input type="time">
+            </div>
+
+            <div class="file"><br>
+
+                <label for="">Upload</label>
+
+                <input type="file" list ="custom-list">
+
+            </div> <br>
+            <div>
+                <progress>
+
+                </progress>uploading
+
+            
+            </div> <br>
+            <div>
+                <progress value="70" max="140">
+
+                </progress>uploading
+
+            
+            </div>
+            <br><br>
+
+            <div>
+                <progress value="70" max="100">
+
+                </progress>uploading
+
+            
+            </div> <br><br>
+
+            <div class="search">
+                <label for=""> Search</label>
+
+                <input type="search">
+            </div> <br><br>
+
+            <div class="range">
+                <label for="" Choosel>
+
+                <input type="range">
+            </div>
+
+            <input type="month"> <br><br>
+
+            <input type="date">
+
+
+            
+
+            
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
